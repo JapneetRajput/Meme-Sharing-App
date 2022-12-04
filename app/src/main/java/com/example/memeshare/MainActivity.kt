@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
                         target: Target<Drawable>?,
                         isFirstResource: Boolean
                     ): Boolean {
-                        progressBar.visibility = View.GONE
+                        progressBar.visibility = View.GONE // Progress bar disappear
                         return false
                     }
 
@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
                         dataSource: DataSource?,
                         isFirstResource: Boolean
                     ): Boolean {
-                        progressBar.visibility = View.GONE
+                        progressBar.visibility = View.GONE // Progress bar disappear
                         return false
                     }
 
